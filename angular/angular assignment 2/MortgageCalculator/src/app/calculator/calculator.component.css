@@ -1,0 +1,23 @@
+.input-group {
+    margin-bottom: 3rem;
+  }
+  
+  .result {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: x-large;
+    color: blue;
+  }
+  .input-group input[type="range"] {
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+  }
+  .title{
+    font-weight:800;
+    font-size: xx-large;
+    color: darkgreen;
+    padding-left: 40%;
+  }
+  
+  

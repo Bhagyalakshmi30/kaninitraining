@@ -1,0 +1,33 @@
+.form {
+    width: 400px;
+    /* margin: 0 auto ; */
+    padding: 70px;
+    
+    height: 580px;
+  }
+  .form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .title
+  {
+    font-size: xx-large;
+    color: brown;
+  }
+  .input-text
+  {
+    padding-bottom: 10px;
+    font-weight: bolder;
+  }
+  .templabel{
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+ .result
+ {
+    color: brown;
+    font-weight: 900;
+ }
+
+ 

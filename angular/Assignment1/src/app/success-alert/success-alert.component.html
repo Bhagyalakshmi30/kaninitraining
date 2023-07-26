@@ -1,0 +1,8 @@
+<h2>success-alert works!</h2>
+
+<label>Enter the username   &nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" [(ngModel)]="username">
+<p>Entered user name is &nbsp; {{ username }}</p>
+
+<button [disabled]="username === ''" (click)="resetUsername()">Submit</button>
+
+<app-calculator></app-calculator>

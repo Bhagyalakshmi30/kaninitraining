@@ -1,0 +1,27 @@
+<h2 class="title">--Mortgage Calculator--</h2>
+
+<div class="input-group">
+  <label>Purchase Price: Rs.{{ purchasePrice }}</label>
+  <input type="range" min="0" max="1000000" step="100" [(ngModel)]="purchasePrice">
+</div>
+
+<div class="input-group">
+  <label>Down Payment: Rs.{{ downPayment }}</label>
+  <input type="range" min="0" max="{{ purchasePrice }}" step="1000" [(ngModel)]="downPayment">
+</div>
+
+<div class="input-group">
+  <label>Repayment Time (Years): {{ repaymentTime }}</label>
+  <input type="range" min="1" max="30" step="1" [(ngModel)]="repaymentTime">
+</div>
+
+<div class="input-group">
+  <label>Interest Rate (%): {{ interestRate }}</label>
+  <input type="range" min="0" max="10" step="0.1" [(ngModel)]="interestRate">
+</div>
+
+<div class="result">
+  <p>Loan Amount: Rs.{{ loanAmount }}</p>
+  <p>Monthly Payment: Rs.{{ monthlyPayment }}</p>
+</div>
+

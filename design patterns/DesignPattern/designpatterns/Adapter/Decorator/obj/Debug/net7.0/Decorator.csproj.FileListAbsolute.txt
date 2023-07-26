@@ -1,0 +1,15 @@
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.csproj.AssemblyReference.cache
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.AssemblyInfoInputs.cache
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.AssemblyInfo.cs
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.csproj.CoreCompileInputs.cache
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\bin\Debug\net7.0\Decorator.exe
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\bin\Debug\net7.0\Decorator.deps.json
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\bin\Debug\net7.0\Decorator.runtimeconfig.json
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\bin\Debug\net7.0\Decorator.dll
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\bin\Debug\net7.0\Decorator.pdb
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.dll
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\refint\Decorator.dll
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.pdb
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\Decorator.genruntimeconfig.cache
+C:\Kanini training\C#\designpatterns\Adapter\Decorator\obj\Debug\net7.0\ref\Decorator.dll

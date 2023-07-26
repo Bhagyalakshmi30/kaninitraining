@@ -1,0 +1,15 @@
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\bin\Debug\net7.0\Strategy.exe
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\bin\Debug\net7.0\Strategy.deps.json
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\bin\Debug\net7.0\Strategy.runtimeconfig.json
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\bin\Debug\net7.0\Strategy.dll
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\bin\Debug\net7.0\Strategy.pdb
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.csproj.AssemblyReference.cache
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.AssemblyInfoInputs.cache
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.AssemblyInfo.cs
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.csproj.CoreCompileInputs.cache
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.dll
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\refint\Strategy.dll
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.pdb
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\Strategy.genruntimeconfig.cache
+C:\Kanini training\C#\designpatterns\Adapter\Strategy\obj\Debug\net7.0\ref\Strategy.dll

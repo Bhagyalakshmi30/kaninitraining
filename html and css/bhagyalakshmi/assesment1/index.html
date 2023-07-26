@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Online Restaurant Table Reservation</title>
+  </head>
+  <body>
+    <header>
+      <h1>Online Restaurant Table Reservation</h1>
+    </header>
+    <div class="tables">
+    <div class="table1">
+      <table>
+        <form onsubmit="return costCalculation()">
+        <tbody>
+          <tr>
+            <td><label>Guest Name</label></td>
+            <td><input type="text" id="name" onblur="validateName()" placeholder="Guest Name"/></td>
+          </tr>
+          <tr>
+            <td><label>Mobile Number</label></td>
+            <td><input type="tel" id="phoneNumber"   placeholder="Enter Phone Number" onblur="validateContactNo()"/></td>
+          </tr>
+          <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" id="email" placeholder="Enter Email" onblur="emailValidation()"/></td>
+          </tr>
+          <tr>
+            <td><label>No of Guest</label></td>
+            <td><input type="text" id="noofguests" required placeholder="Enter No of Guest"/></td>
+          </tr>
+          <tr>
+            <td><label>Session Type</label></td>
+            <td>
+                <div class="session">
+                    <input type="radio" id="checkbox1" name="session" value="Lunch(12pm-3pm)" required/><label for="checkbox1">Lunch(12pm-3pm)</label>
+                </div>
+                <div class="session"><input type="radio" id="checkbox2" name="session" value="Dinner(7pm-10pm)" required /><label for="checkbox2">Dinner(7pm-10pm)</label>
+                </div> 
+                  
+            </td>
+          </tr>
+          <tr>
+            <td><label>Date of Visit</label></td>
+            <td><input type="text" id="dateofvisit" placeholder="dd/MM/yyyy" required></td>
+          </tr>
+          <tr>
+            <td><label>Duration</label></td>
+            <td><input type="text" id="duration"  required placeholder="Enter Duration"/>min</td>
+          </tr>
+          <tr>
+            <td><label>Select Table</label></td>
+            <td>
+                <select id="tableName">
+                    <option value="TA1">TA1</option>
+                    <option value="TA2">TA2</option>
+                    <option value="TA3">TA3</option>
+                    <option value="TA4">TA4</option>
+                    <option value="TB1">TB1</option>
+                    <option value="TB2">TB2</option>
+                    <option value="TB3">TB3</option>
+                    <option value="TB4">TB4</option>
+
+                </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label>payment Mode</label></td>
+            <td>
+                <input type="radio" id="cc" name="payment" value="cc" required><label for="cc">CC</label>
+                <input type="radio" id="dc" name="payment" value="dc" required><label for="dc">DC</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Card Number</label></td>
+            <td><input type="txt" id="cardNumber"  placeholder="Enter Card Number" requireed/></td>
+          </tr>
+          <tr>
+            <td><label>CVV Number</label></td>
+            <td><input type="txt" id="cvvNumber" placeholder="Enter Cvv Number" required/></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="button">
+                <input type="submit" value="Reserve" id="reserve"/>
+                <input type="reset" value="Clear" id="clear" />
+            </td>   
+          </tr>
+          <tr>
+            <td colspan="2">
+                <div id="result"></div>
+            </td>
+        
+          </tr> 
+        </tbody>
+    </form>
+      </table>
+    </div>
+      <div class="table2">
+      <table>
+        <thead><h1 style="font-size: large; text-align: center;">Rate card for lunch and dinner</h1></thead>
+        <th>
+            <tr>
+                <td>Session Type</td>
+                <td>Chargers per Guest (in Rs)</td>
+                <td>Number of Guest</td>
+                <td>Advance payment(in Rs)</td>
+            </tr>
+           
+        </th>
+        <tr>
+            <td>Lunch</td>
+            <td>625</td>
+            <td>Upto 3</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>Lunch</td>
+            <td>625</td>
+            <td>Upto 6</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>Lunch</td>
+            <td>625</td>
+            <td>Upto 10</td>
+            <td>2500</td>
+        </tr>
+
+        <tr>
+            <td>Lunch</td>
+            <td>625</td>
+            <td>Upto 20</td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>Dinner</td>
+            <td>825</td>
+            <td>Upto 3</td>
+            <td>600</td>
+        </tr>
+        <tr>
+            <td>Dinner</td>
+            <td>825</td>
+            <td>Upto 6</td>
+            <td>1200</td>
+        </tr>
+        <tr>
+            <td>Dinner</td>
+            <td>825</td>
+            <td>Upto 10</td>
+            <td>2750</td>
+        </tr>
+        <tr>
+            <td>Dinner</td>
+            <td>825</td>
+            <td>Upto 20</td>
+            <td>4200</td>
+        </tr>
+      </table>
+    </div>
+</div>
+     
+  </body>
+</html>

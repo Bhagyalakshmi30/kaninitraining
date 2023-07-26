@@ -1,0 +1,15 @@
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\bin\Debug\net7.0\Adapter.exe
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\bin\Debug\net7.0\Adapter.deps.json
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\bin\Debug\net7.0\Adapter.runtimeconfig.json
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\bin\Debug\net7.0\Adapter.dll
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\bin\Debug\net7.0\Adapter.pdb
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.csproj.AssemblyReference.cache
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.AssemblyInfoInputs.cache
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.AssemblyInfo.cs
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.csproj.CoreCompileInputs.cache
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.dll
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\refint\Adapter.dll
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.pdb
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\Adapter.genruntimeconfig.cache
+C:\Kanini training\C#\designpatterns\Adapter\Adapter\obj\Debug\net7.0\ref\Adapter.dll

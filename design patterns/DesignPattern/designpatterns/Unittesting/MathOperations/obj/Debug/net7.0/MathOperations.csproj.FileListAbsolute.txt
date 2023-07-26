@@ -1,0 +1,15 @@
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\bin\Debug\net7.0\MathOperations.exe
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\bin\Debug\net7.0\MathOperations.deps.json
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\bin\Debug\net7.0\MathOperations.runtimeconfig.json
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\bin\Debug\net7.0\MathOperations.dll
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\bin\Debug\net7.0\MathOperations.pdb
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.csproj.AssemblyReference.cache
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.AssemblyInfoInputs.cache
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.AssemblyInfo.cs
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.csproj.CoreCompileInputs.cache
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.dll
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\refint\MathOperations.dll
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.pdb
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\MathOperations.genruntimeconfig.cache
+C:\Kanini training\C#\designpatterns\Unittesting\MathOperations\obj\Debug\net7.0\ref\MathOperations.dll

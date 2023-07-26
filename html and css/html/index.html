@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>One-Stop Mobile Accessories</title>
+  </head>
+  <body>
+    <header>
+      <h3>One-Stop Mobile Accessories</h3>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <td colspan="2" class="title"><label>Personal Details</label></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><label>Name</label></td>
+            <td><input type="text" id="name" onblur="validateName()"/></td>
+          </tr>
+          <tr>
+            <td><label>Phone Number</label></td>
+            <td><input type="tel" id="phoneNumber" onblur="validateContactNo()"/></td>
+          </tr>
+          <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" id="emailId" onblur="emailValidation()"/></td>
+          </tr>
+          <tr>
+            <td class="address"><label>Delivery Address</label></td>
+            <td><textarea id="address" cols="50" rows="4" onblur="validateAddress()"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="title">
+              <label>Combo Offers (Save upto Rs. 400 on each combo !!)</label>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="6">
+              <input
+                type="checkbox"
+                value="SanDisk 32GB micro SDHC Memory Card + iXCC Micro-USB cable"
+                name="comboOffers"
+                id="option1"
+              />
+              <label
+                >SanDisk 32GB micro SDHC Memory Card + iXCC Micro-USB
+                cable</label
+              ><br /><br />
+              <input
+                type="checkbox"
+                value="Sandisk Cruzer Blade 32 GB Pen Drive + Samsung Type B 15W Travel Adaptor"
+                name="comboOffers"
+                id="option2"
+              />
+              <label
+                >Sandisk Cruzer Blade 32 GB Pen Drive + Samsung Type B 15W
+                Travel Adaptor</label
+              ><br /><br />
+              <input
+                type="checkbox"
+                value="Sony WF-1000XM3 Head Phone + SanDisk 16GB micro SDHC Memory Card"
+                name="comboOffers"
+                id="option3"
+              />
+              <label
+                >Sony WF-1000XM3 Head Phone + SanDisk 16GB micro SDHC Memory
+                Card</label
+              ><br /><br />
+              <input
+                type="checkbox"
+                value="Mpow Car Phone Mount + Zebroni 1 Amp Turbo Car Mobile Charger"
+                name="comboOffers"
+                id="option4"
+              />
+              <label
+                >Mpow Car Phone Mount + Zebroni 1 Amp Turbo Car Mobile
+                Charger</label
+              ><br /><br />
+              <input
+                type="checkbox"
+                value="Tribit XSound Go Bluetooth Speaker + Mpow Car Phone
+                Mount"
+                name="comboOffers"
+                id="option5"
+              />
+              <label
+                >Tribit XSound Go Bluetooth Speaker + Mpow Car Phone
+                Mount</label
+              >
+            </td>
+              <tr>
+                <td><label>Rs 799/- only</label></td>
+              </tr>
+              <tr>
+                <td><label>Rs 899/- only</label></td>
+              </tr>
+              <tr>
+                <td><label>Rs 1199/- only</label></td>
+              </tr>
+              <tr>
+                <td><label>Rs 299/- only</label></td>
+              </tr>
+              <tr>
+                <td><label>Rs 999/- only</label></td>
+              </tr>
+          </tr>
+          <tr>
+            <td colspan="2"><label>*Enjoy 20% discount on purchasing combos worth 2000 and above!!</label></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <input type="submit" value="PLACE ORDER" id="order" onclick="costCalculation()"/>
+      <br />
+      <div id="result"></div>
+    </main>
+  </body>
+</html>

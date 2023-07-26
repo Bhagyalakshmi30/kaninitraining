@@ -1,0 +1,49 @@
+
+  header {
+    text-align: center;
+    color: #FF0000;
+    font-weight: bold;
+    font-style: italic;
+  }
+  table,
+  tr,
+  td {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    color:#0F0F0F;
+    background-color:#F6B60F;
+    border: 5px inset;
+    font-weight: bold;
+    border-spacing: 5px;
+    border-width: 10%;
+
+  }
+.button{
+     text-align: center;
+  }
+  .session{
+     border: 5px inset;
+  }
+  .tables{
+    display: flex;
+  }
+  .table1{
+    display: flex;
+    justify-content: center;
+    padding-left:450px ;
+  }
+  .table2{
+    width: 30%;
+    height: 70%;
+    padding-top: 280px;
+
+  }
+  thead{
+     align-items: center;
+
+  }
+   .table2 tr,
+   .table2 td{
+    border: 3px solid;
+   }

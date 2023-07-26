@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(
+    to right,
+    #000080,
+    #0000cd,
+    #0000ff,
+    #00008b,
+    #191970
+  );
+}
+header {
+  text-align: center;
+  color: #ffffff;
+  font-family: Verdana;
+}
+table,
+tr,
+td {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding: 7px;
+  color: #08088a;
+  background-color: #ffffff;
+  border: 1px solid navy;
+}
+#order {
+  color: #08088a;
+  margin-left: 45%;
+  margin-right: auto;
+  font-weight: bold;
+}
+#result {
+  color: #ffffff;
+  text-align: center;
+  font-family: Verdana;
+  font-weight: bold;
+}
+label {
+  color: #08088a;
+  font-weight: bold;
+}
+.title {
+  text-align: center;
+}
+#name,
+#phoneNumber,
+#emailId {
+  width: 378px;
+}
+.valid {
+  border: green 2px solid;
+  color: black;
+  background-color: rgb(226, 255, 184);
+}
+.invalid {
+  border: red solid 2px;
+  color: black;
+  background-color: rgb(255, 171, 171);
+}
